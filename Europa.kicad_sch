@@ -1,0 +1,61 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 2c9ed7fb-386d-4573-ab52-9dee094423a0)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 232.41 125.73) (size 45.72 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 293b5c94-66ed-4931-a87f-688673218b15)
+    (property "Sheet name" "Transponder" (id 0) (at 232.41 125.0184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "transponder.kicad_sch" (id 1) (at 232.41 158.0646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 232.41 83.82) (size 45.72 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 75f9b772-c578-422e-a634-635b5097c8a8)
+    (property "Sheet name" "COM" (id 0) (at 232.41 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "com.kicad_sch" (id 1) (at 232.41 114.8846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/293b5c94-66ed-4931-a87f-688673218b15" (page "2"))
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/293b5c94-66ed-4931-a87f-688673218b15/f674721b-bb85-4c43-a7cc-c93ff132b271"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/293b5c94-66ed-4931-a87f-688673218b15/e78f6b9e-11f9-4de0-bf3e-3dfeec8f821c"
+      (reference "AE1") (unit 1) (value "Transponder Antenna") (footprint "")
+    )
+    (path "/293b5c94-66ed-4931-a87f-688673218b15/e89ba836-c472-4e6e-8283-7dec4cf43d20"
+      (reference "J1") (unit 1) (value "Antenna SMA") (footprint "")
+    )
+    (path "/293b5c94-66ed-4931-a87f-688673218b15/ebe3f642-9b43-430a-b037-7f70139ef68a"
+      (reference "J2") (unit 1) (value "DB15_Male") (footprint "")
+    )
+    (path "/293b5c94-66ed-4931-a87f-688673218b15/acbdb600-6467-47ff-9f07-fa11e9815756"
+      (reference "J3") (unit 1) (value "Screw_Terminal_01x08") (footprint "")
+    )
+    (path "/293b5c94-66ed-4931-a87f-688673218b15/5e81fced-7c45-4ff4-ad62-f8890e780796"
+      (reference "J4") (unit 1) (value "Screw_Terminal_01x12") (footprint "")
+    )
+  )
+)
