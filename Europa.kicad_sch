@@ -32,10 +32,23 @@
     )
   )
 
+  (sheet (at 30.48 29.21) (size 44.45 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 95e96eec-8054-412c-b439-e274da9864da)
+    (property "Sheet name" "Generator Regulator and Battery" (id 0) (at 30.48 28.4984 0)
+      (effects (font (size 1.27 1.27) bold) (justify left bottom))
+    )
+    (property "Sheet file" "regulator.kicad_sch" (id 1) (at 30.48 53.9246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/293b5c94-66ed-4931-a87f-688673218b15" (page "2"))
     (path "/75f9b772-c578-422e-a634-635b5097c8a8" (page "3"))
+    (path "/95e96eec-8054-412c-b439-e274da9864da" (page "4"))
   )
 
   (symbol_instances
@@ -45,17 +58,29 @@
     (path "/293b5c94-66ed-4931-a87f-688673218b15/e78f6b9e-11f9-4de0-bf3e-3dfeec8f821c"
       (reference "AE1") (unit 1) (value "Transponder Antenna") (footprint "")
     )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/51d50f68-e9e6-4393-92e3-09fe7c1c92df"
+      (reference "BT?") (unit 1) (value "Battery") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/2ccf2bcf-c9fa-4aac-8b94-33014b8551f7"
+      (reference "C?") (unit 1) (value "C_Polarized") (footprint "")
+    )
     (path "/293b5c94-66ed-4931-a87f-688673218b15/e89ba836-c472-4e6e-8283-7dec4cf43d20"
       (reference "J1") (unit 1) (value "Antenna SMA") (footprint "")
     )
     (path "/293b5c94-66ed-4931-a87f-688673218b15/ebe3f642-9b43-430a-b037-7f70139ef68a"
-      (reference "J2") (unit 1) (value "DB15_Male") (footprint "")
+      (reference "J2") (unit 1) (value "DB15_Female") (footprint "")
     )
     (path "/293b5c94-66ed-4931-a87f-688673218b15/acbdb600-6467-47ff-9f07-fa11e9815756"
       (reference "J3") (unit 1) (value "Screw_Terminal_01x08") (footprint "")
     )
     (path "/293b5c94-66ed-4931-a87f-688673218b15/5e81fced-7c45-4ff4-ad62-f8890e780796"
       (reference "J4") (unit 1) (value "Screw_Terminal_01x12") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/58480643-757d-49ce-9d0a-59157dab57c9"
+      (reference "TB3") (unit 1) (value "Terminal_Block_2x12") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/e9eef6b0-61c9-45dc-a99e-e0a5e09e5289"
+      (reference "U?") (unit 1) (value "Ducati_Regulator") (footprint "")
     )
   )
 )
