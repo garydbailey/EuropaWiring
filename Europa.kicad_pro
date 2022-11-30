@@ -332,6 +332,10 @@
     [
       "95e96eec-8054-412c-b439-e274da9864da",
       "Generator Regulator and Battery"
+    ],
+    [
+      "a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc",
+      "RDAC"
     ]
   ],
   "text_variables": {}

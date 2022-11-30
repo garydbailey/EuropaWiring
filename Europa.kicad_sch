@@ -44,16 +44,41 @@
     )
   )
 
+  (sheet (at 30.48 74.93) (size 44.45 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc)
+    (property "Sheet name" "RDAC" (id 0) (at 30.48 74.2184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "rdac.kicad_sch" (id 1) (at 30.48 98.3746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/293b5c94-66ed-4931-a87f-688673218b15" (page "2"))
     (path "/75f9b772-c578-422e-a634-635b5097c8a8" (page "3"))
     (path "/95e96eec-8054-412c-b439-e274da9864da" (page "4"))
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc" (page "5"))
   )
 
   (symbol_instances
     (path "/293b5c94-66ed-4931-a87f-688673218b15/f674721b-bb85-4c43-a7cc-c93ff132b271"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/379a770d-4d17-483a-a138-8c21f91d9801"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/4ffc6f8b-ba62-4960-a0b5-48d0f6249e7c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/60f0a32b-297b-4804-b5af-e907dc07f51f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/d8bf2695-17a9-416c-aba7-6777ceba8849"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/293b5c94-66ed-4931-a87f-688673218b15/e78f6b9e-11f9-4de0-bf3e-3dfeec8f821c"
       (reference "AE1") (unit 1) (value "Transponder Antenna") (footprint "")
@@ -63,6 +88,18 @@
     )
     (path "/95e96eec-8054-412c-b439-e274da9864da/2ccf2bcf-c9fa-4aac-8b94-33014b8551f7"
       (reference "C?") (unit 1) (value "C_Polarized") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/26fb60c6-b782-4115-96e5-0d0a85062e65"
+      (reference "CB?") (unit 1) (value "RDAC CB") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/17bd44a0-242c-438d-8b3e-1f10aefa7711"
+      (reference "EA1") (unit 1) (value "Engine_Alternator") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/8d745c97-a2e8-4aae-ae04-665d0442e05a"
+      (reference "F1") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/99fe3586-3050-4444-92a3-76b410a00860"
+      (reference "F2") (unit 1) (value "Fuse") (footprint "")
     )
     (path "/293b5c94-66ed-4931-a87f-688673218b15/e89ba836-c472-4e6e-8283-7dec4cf43d20"
       (reference "J1") (unit 1) (value "Antenna SMA") (footprint "")
@@ -75,6 +112,60 @@
     )
     (path "/293b5c94-66ed-4931-a87f-688673218b15/5e81fced-7c45-4ff4-ad62-f8890e780796"
       (reference "J4") (unit 1) (value "Screw_Terminal_01x12") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/76b153a4-0849-40e4-b941-539779425156"
+      (reference "J?") (unit 1) (value "DB25_Female") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/a0700f3e-8988-4515-a3ad-b2abb0d73540"
+      (reference "J?") (unit 1) (value "DB25_Male") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/c20d4cbf-03aa-492f-a7cc-6e1124415d77"
+      (reference "J?") (unit 1) (value "DB9_Male") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/e77952fd-3f26-43bd-9da9-266d1d56298c"
+      (reference "J?") (unit 1) (value "DB9_Female") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/c010279e-e885-425a-8dde-29e99d1e0e11"
+      (reference "PL10-F") (unit 1) (value "Conn_01x03_Female") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/94b0ac53-6566-4d3b-8667-5342e6dfb189"
+      (reference "PL10-M") (unit 1) (value "Conn_01x03_Male") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/2409a3e3-f0dc-4e5d-8d6e-71c8c1c58eb7"
+      (reference "PL12/1") (unit 1) (value "Conn_01x01") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/32b7ec03-c573-4fc2-9f00-e104d3f42467"
+      (reference "PL15") (unit 1) (value "Conn_01x03_Male") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/3d5cbab8-4231-4f47-97f4-fa9a7735ee55"
+      (reference "PL15") (unit 1) (value "Conn_01x01") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/6549f19e-d7ae-423b-90b3-e880a9f61d6c"
+      (reference "PL15") (unit 1) (value "Conn_01x01") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/73e66a4b-e5f5-4e26-8817-b35fa2e0a76b"
+      (reference "PL15") (unit 1) (value "Conn_01x03_Female") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/efba767d-032c-4fc0-ac0f-c7b5004e101c"
+      (reference "PL15") (unit 1) (value "Conn_01x01") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/1c9a909b-961c-49c2-879c-f646c2a2f1a5"
+      (reference "PL15/9") (unit 1) (value "Conn_01x01") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/d9413806-88d1-4bd0-be4e-3f61d0ad6066"
+      (reference "S?") (unit 1) (value "Starter_Solenoid") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/f3a2315e-89a5-4ac5-8a4c-516dccff2c50"
+      (reference "S?") (unit 1) (value "Isolator_Solenoid") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/5a9e00fd-87d6-4f22-8987-36234a7c8cbe"
+      (reference "SM1") (unit 1) (value "Starter_Motor") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/0270a6e4-ad18-475b-9e92-b0cee3653461"
+      (reference "TB1") (unit 1) (value "Terminal_Block_2x12") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/8dfbb469-e24c-4918-91c9-d3244a4c0f5f"
+      (reference "TB2") (unit 1) (value "Terminal_Block_2x12") (footprint "")
     )
     (path "/95e96eec-8054-412c-b439-e274da9864da/58480643-757d-49ce-9d0a-59157dab57c9"
       (reference "TB3") (unit 1) (value "Terminal_Block_2x12") (footprint "")
