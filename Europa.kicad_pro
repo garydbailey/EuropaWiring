@@ -336,6 +336,14 @@
     [
       "a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc",
       "RDAC"
+    ],
+    [
+      "c5676131-d5a4-4fde-914f-3f396c9cd255",
+      "Main Instrument Panel"
+    ],
+    [
+      "e876c59e-4288-4b76-b538-81605be93f21",
+      "Main Bus Panel"
     ]
   ],
   "text_variables": {}

@@ -56,25 +56,60 @@
     )
   )
 
+  (sheet (at 30.48 109.22) (size 44.45 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid c5676131-d5a4-4fde-914f-3f396c9cd255)
+    (property "Sheet name" "Main Instrument Panel" (id 0) (at 30.48 108.5084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "main_instrument_panel.kicad_sch" (id 1) (at 30.48 131.3946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 92.71 29.21) (size 45.72 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid e876c59e-4288-4b76-b538-81605be93f21)
+    (property "Sheet name" "Main Bus Panel" (id 0) (at 92.71 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "main_bus_panel.kicad_sch" (id 1) (at 92.71 53.9246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/293b5c94-66ed-4931-a87f-688673218b15" (page "2"))
     (path "/75f9b772-c578-422e-a634-635b5097c8a8" (page "3"))
     (path "/95e96eec-8054-412c-b439-e274da9864da" (page "4"))
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc" (page "5"))
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255" (page "6"))
+    (path "/e876c59e-4288-4b76-b538-81605be93f21" (page "7"))
   )
 
   (symbol_instances
     (path "/293b5c94-66ed-4931-a87f-688673218b15/f674721b-bb85-4c43-a7cc-c93ff132b271"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
     )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/351201bd-a1be-40ec-8dcb-3b3b6ecd0588"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/95e96eec-8054-412c-b439-e274da9864da/379a770d-4d17-483a-a138-8c21f91d9801"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/4fc86e3f-f251-44bb-bd14-edbd884c377c"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/4ffc6f8b-ba62-4960-a0b5-48d0f6249e7c"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/95e96eec-8054-412c-b439-e274da9864da/60f0a32b-297b-4804-b5af-e907dc07f51f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/bb1edeb4-25f1-4a5d-813a-b1f43fcdb3e4"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/95e96eec-8054-412c-b439-e274da9864da/d8bf2695-17a9-416c-aba7-6777ceba8849"
@@ -86,11 +121,47 @@
     (path "/95e96eec-8054-412c-b439-e274da9864da/51d50f68-e9e6-4393-92e3-09fe7c1c92df"
       (reference "BT?") (unit 1) (value "Battery") (footprint "")
     )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/fd2f0dca-5f3b-4728-9958-07ba08ec4ad1"
+      (reference "BT?") (unit 1) (value "Battery") (footprint "")
+    )
     (path "/95e96eec-8054-412c-b439-e274da9864da/2ccf2bcf-c9fa-4aac-8b94-33014b8551f7"
       (reference "C?") (unit 1) (value "C_Polarized") (footprint "")
     )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/05896e8e-71f7-4cf4-9ea2-c66b78678fb5"
+      (reference "CB?") (unit 1) (value "Fuel Pump") (footprint "")
+    )
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/26fb60c6-b782-4115-96e5-0d0a85062e65"
       (reference "CB?") (unit 1) (value "RDAC CB") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/388762f5-890b-46d3-9653-5b33ed052fa1"
+      (reference "CB?") (unit 1) (value "Battery Master CB") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/5d328111-96a8-4b7a-b4fa-f253eb100dc5"
+      (reference "CB?") (unit 1) (value "RDAC CB") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/8a17d120-1899-4609-9fc2-8b83b160d1b7"
+      (reference "CB?") (unit 1) (value "Lamps CB") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/91d337f0-0505-4fcb-92a1-e365f6ea2f61"
+      (reference "CB?") (unit 1) (value "TRIM CB") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/93d9a245-798b-48e1-873b-4017f0340299"
+      (reference "CB?") (unit 1) (value "Alternator Master CB") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/96766fe7-6992-4d18-bb16-9ddace48479d"
+      (reference "CB?") (unit 1) (value "Strobe/NAv CB") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/b5abd1b2-af67-4161-95c0-1620e841fa27"
+      (reference "CB?") (unit 1) (value "Avionics BUS CB") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/b6042322-90d1-44f1-81c4-54b7ffeb37f1"
+      (reference "CB?") (unit 1) (value "Starter") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/f1e9ca53-83fe-48d9-9117-f7d158b0680b"
+      (reference "CB?") (unit 1) (value "?") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/f7447726-c8ab-49f4-a046-8104077705b0"
+      (reference "CB?") (unit 1) (value "?") (footprint "")
     )
     (path "/95e96eec-8054-412c-b439-e274da9864da/17bd44a0-242c-438d-8b3e-1f10aefa7711"
       (reference "EA1") (unit 1) (value "Engine_Alternator") (footprint "")
@@ -100,6 +171,9 @@
     )
     (path "/95e96eec-8054-412c-b439-e274da9864da/99fe3586-3050-4444-92a3-76b410a00860"
       (reference "F2") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/d485d247-bb20-4ffc-b2f5-e1c0eaafda4a"
+      (reference "FS-2") (unit 1) (value "Fuse") (footprint "")
     )
     (path "/293b5c94-66ed-4931-a87f-688673218b15/e89ba836-c472-4e6e-8283-7dec4cf43d20"
       (reference "J1") (unit 1) (value "Antenna SMA") (footprint "")
@@ -113,17 +187,68 @@
     (path "/293b5c94-66ed-4931-a87f-688673218b15/5e81fced-7c45-4ff4-ad62-f8890e780796"
       (reference "J4") (unit 1) (value "Screw_Terminal_01x12") (footprint "")
     )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/2b931534-dcf4-4f0a-91cc-dc769096fa05"
+      (reference "J?") (unit 1) (value "DB9_Female") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/2eedac69-ebdc-4a09-ab2c-65c33d3be8e3"
+      (reference "J?") (unit 1) (value "DB15_Male") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/619ed128-9b69-4240-9409-37a06185dd84"
+      (reference "J?") (unit 1) (value "PL? - Fuel Pump") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/6fbfb598-dbcf-42c3-879e-9b58dd5bc67f"
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x08") (footprint "")
+    )
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/76b153a4-0849-40e4-b941-539779425156"
       (reference "J?") (unit 1) (value "DB25_Female") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/9d2c5c72-5033-4e18-8ccb-6942d4705a16"
+      (reference "J?") (unit 1) (value "DB15_Female") (footprint "")
     )
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/a0700f3e-8988-4515-a3ad-b2abb0d73540"
       (reference "J?") (unit 1) (value "DB25_Male") (footprint "")
     )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/b504d1fd-31e6-4b71-8d10-fda1a05f613d"
+      (reference "J?") (unit 1) (value "DB15_Male") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/c04e6087-e529-408a-8a03-5605e6e4e80a"
+      (reference "J?") (unit 1) (value "DB15_Female") (footprint "")
+    )
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/c20d4cbf-03aa-492f-a7cc-6e1124415d77"
+      (reference "J?") (unit 1) (value "DB9_Male") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/d008d60e-b61b-4155-beb9-5029ffe66249"
       (reference "J?") (unit 1) (value "DB9_Male") (footprint "")
     )
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/e77952fd-3f26-43bd-9da9-266d1d56298c"
       (reference "J?") (unit 1) (value "DB9_Female") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/381197e2-b232-4b8f-b646-39112473a836"
+      (reference "LA?") (unit 1) (value "Alternator Warning Lamp") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/5bf7dce5-2000-421b-958d-68d2519ed3ba"
+      (reference "LA?") (unit 1) (value "Lamp") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/b6037f4d-1b39-4027-b890-d8a4414367a5"
+      (reference "LA?") (unit 1) (value "Lamp") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/da0418c1-ec5c-46e4-a289-eb3cf882a2aa"
+      (reference "LA?") (unit 1) (value "Lamp") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/e877879b-73eb-4bb6-a08d-a6923f98ec97"
+      (reference "LA?") (unit 1) (value "Lamp") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/8b3089c2-4205-4106-b1c3-6349d2fe7f00"
+      (reference "Lamps-CB") (unit 1) (value "CircuitBreaker_1P") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/559ccf97-058c-431a-aa6c-8b448def102e"
+      (reference "PL9-A") (unit 1) (value "DB15_Female") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/e0ff68e4-a400-411b-a15f-019ff82dffc4"
+      (reference "PL9-B") (unit 1) (value "DB15_Male") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/6549f19e-d7ae-423b-90b3-e880a9f61d6c"
+      (reference "PL9/2") (unit 1) (value "Conn_01x01") (footprint "")
     )
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/c010279e-e885-425a-8dde-29e99d1e0e11"
       (reference "PL10-F") (unit 1) (value "Conn_01x03_Female") (footprint "")
@@ -137,20 +262,50 @@
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/32b7ec03-c573-4fc2-9f00-e104d3f42467"
       (reference "PL15") (unit 1) (value "Conn_01x03_Male") (footprint "")
     )
-    (path "/95e96eec-8054-412c-b439-e274da9864da/3d5cbab8-4231-4f47-97f4-fa9a7735ee55"
-      (reference "PL15") (unit 1) (value "Conn_01x01") (footprint "")
-    )
-    (path "/95e96eec-8054-412c-b439-e274da9864da/6549f19e-d7ae-423b-90b3-e880a9f61d6c"
-      (reference "PL15") (unit 1) (value "Conn_01x01") (footprint "")
-    )
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/73e66a4b-e5f5-4e26-8817-b35fa2e0a76b"
       (reference "PL15") (unit 1) (value "Conn_01x03_Female") (footprint "")
     )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/c7c2a81e-4550-4749-bccc-a15837fe0c2b"
+      (reference "PL15") (unit 1) (value "PL15/1") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/3d5cbab8-4231-4f47-97f4-fa9a7735ee55"
+      (reference "PL15/1") (unit 1) (value "Conn_01x01") (footprint "")
+    )
     (path "/95e96eec-8054-412c-b439-e274da9864da/efba767d-032c-4fc0-ac0f-c7b5004e101c"
-      (reference "PL15") (unit 1) (value "Conn_01x01") (footprint "")
+      (reference "PL15/2") (unit 1) (value "Conn_01x01") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/fde59e8d-0bf8-462d-bf6d-62deaa0afd56"
+      (reference "PL15/3") (unit 1) (value "Conn_01x01") (footprint "")
     )
     (path "/95e96eec-8054-412c-b439-e274da9864da/1c9a909b-961c-49c2-879c-f646c2a2f1a5"
       (reference "PL15/9") (unit 1) (value "Conn_01x01") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/f81f5b76-cf2a-4a78-a5d9-82d4a2097372"
+      (reference "PL15/10") (unit 1) (value "Conn_01x01") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/02428102-6ae6-4d41-9989-a38e205d44b5"
+      (reference "PL?") (unit 1) (value "PL15/5") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/1974aa82-d2d1-4cd5-aae0-a42ac11484ab"
+      (reference "PL?") (unit 1) (value "PL9/14") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/25e5ccec-6d0f-449f-9612-44139c4b9390"
+      (reference "PL?") (unit 1) (value "PL9/8") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/77916df4-64cd-4588-a545-035faa871e76"
+      (reference "PL?") (unit 1) (value "PL9/7") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/f8d87646-0d96-4cd5-a3d1-535558283599"
+      (reference "PL?") (unit 1) (value "PL15/2") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/1b459b21-8c3a-4365-b506-7f5372324f1f"
+      (reference "R?") (unit 1) (value "120") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/e7fab849-aab1-4ec4-96ad-70aceaea439f"
+      (reference "R?") (unit 1) (value "120 ohm") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/99bebb0d-e008-4cf9-8849-280df67dcece"
+      (reference "RV?") (unit 1) (value "Volume") (footprint "")
     )
     (path "/95e96eec-8054-412c-b439-e274da9864da/d9413806-88d1-4bd0-be4e-3f61d0ad6066"
       (reference "S?") (unit 1) (value "Starter_Solenoid") (footprint "")
@@ -161,6 +316,30 @@
     (path "/95e96eec-8054-412c-b439-e274da9864da/5a9e00fd-87d6-4f22-8987-36234a7c8cbe"
       (reference "SM1") (unit 1) (value "Starter_Motor") (footprint "")
     )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/09849246-2af9-47af-a100-94f3e7daf7b3"
+      (reference "SW?") (unit 1) (value "Alternator Master") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/23c950b3-3550-4772-aada-803de3c1f283"
+      (reference "SW?") (unit 1) (value "Fuel Pump") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/2a9c0356-11d2-4019-b292-3ff00d0bf9a1"
+      (reference "SW?") (unit 1) (value "Select") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/2b3baf8f-0621-46d5-a93d-41f09082aff1"
+      (reference "SW?") (unit 1) (value "On/Off") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/3dba7568-3ce7-4215-a0f9-8c45438eab96"
+      (reference "SW?") (unit 1) (value "Starter Switch") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/afecc038-43b6-458e-aa63-20b51e6acf0e"
+      (reference "SW?") (unit 1) (value "Battery Master Switch") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/d4d62dba-6fe8-4f5c-afde-76945c0db595"
+      (reference "SW?") (unit 1) (value "Starter Sw") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/dbb84075-4131-47a3-b3a9-3ffe8d76ec2d"
+      (reference "Starter-CB") (unit 1) (value "CircuitBreaker_1P") (footprint "")
+    )
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/0270a6e4-ad18-475b-9e92-b0cee3653461"
       (reference "TB1") (unit 1) (value "Terminal_Block_2x12") (footprint "")
     )
@@ -170,8 +349,35 @@
     (path "/95e96eec-8054-412c-b439-e274da9864da/58480643-757d-49ce-9d0a-59157dab57c9"
       (reference "TB3") (unit 1) (value "Terminal_Block_2x12") (footprint "")
     )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/39b2f030-e671-4a1f-89e8-96dfd8116f4c"
+      (reference "TB5") (unit 1) (value "Screw_Terminal_01x12") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/4c8ed4b2-0642-4ff8-8e8e-067706c5fb9b"
+      (reference "TB5") (unit 1) (value "Screw_Terminal_01x12") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/c2eb974f-a6a3-4b82-a838-538770460ce4"
+      (reference "TB6") (unit 1) (value "Screw_Terminal_01x12") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/3a4078e7-24de-4bfd-a13a-9bee3112ef73"
+      (reference "U?") (unit 1) (value "MGL_Current_Sensor") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/5a62c6d8-fc84-4d07-9df2-ab7e48d5f535"
+      (reference "U?") (unit 1) (value "OAT_Sensor") (footprint "")
+    )
     (path "/95e96eec-8054-412c-b439-e274da9864da/e9eef6b0-61c9-45dc-a99e-e0a5e09e5289"
       (reference "U?") (unit 1) (value "Ducati_Regulator") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/614ed54e-c9ac-4d97-b2db-7c94fde98a1c"
+      (reference "WLamp1") (unit 1) (value "Starter") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/441a1e07-0d84-4b75-95af-63db8d393b74"
+      (reference "WLamp2") (unit 1) (value " ") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/f8276427-c52b-419e-a674-71ac49970141"
+      (reference "WLamp3") (unit 1) (value "Door") (footprint "")
+    )
+    (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/a2aad4bb-7561-4a0c-a2d4-d21f6226c003"
+      (reference "WLamp4") (unit 1) (value "Gear") (footprint "")
     )
   )
 )
