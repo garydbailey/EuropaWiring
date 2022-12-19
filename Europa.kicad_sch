@@ -20,6 +20,18 @@
     )
   )
 
+  (sheet (at 157.48 29.21) (size 44.45 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c)
+    (property "Sheet name" "Avionics BUS" (id 0) (at 157.48 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "avionics_bus.kicad_sch" (id 1) (at 157.48 53.9246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 232.41 83.82) (size 45.72 30.48) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -29,6 +41,26 @@
     )
     (property "Sheet file" "com.kicad_sch" (id 1) (at 232.41 114.8846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 92.71 74.93) (size 45.72 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 866b3cfa-81f9-4c05-8259-46d4a400c4a9)
+    (property "Sheet name" "Trim Circuit" (id 0) (at 92.71 74.2184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "trim_circuit.kicad_sch" (id 1) (at 92.71 98.3746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "+12v" input (at 92.71 81.28 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid aae7fc20-fa9a-4fde-9b6d-af1ca6606722)
+    )
+    (pin "0v" input (at 92.71 86.36 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 842b00d2-b1e3-4aaf-b156-215381b9dfd6)
     )
   )
 
@@ -88,6 +120,8 @@
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc" (page "5"))
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255" (page "6"))
     (path "/e876c59e-4288-4b76-b538-81605be93f21" (page "7"))
+    (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9" (page "8"))
+    (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c" (page "9"))
   )
 
   (symbol_instances
@@ -112,7 +146,16 @@
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/bb1edeb4-25f1-4a5d-813a-b1f43fcdb3e4"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/d0c3bae4-0af2-4e00-b106-8d7e92467906"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/95e96eec-8054-412c-b439-e274da9864da/d8bf2695-17a9-416c-aba7-6777ceba8849"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/e3dea152-b7e9-4b86-892e-d6d245a5440c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/f5636c71-23a5-4c88-8117-e2a6e826ce57"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/293b5c94-66ed-4931-a87f-688673218b15/e78f6b9e-11f9-4de0-bf3e-3dfeec8f821c"
@@ -133,6 +176,9 @@
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/26fb60c6-b782-4115-96e5-0d0a85062e65"
       (reference "CB?") (unit 1) (value "RDAC CB") (footprint "")
     )
+    (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/369404a4-9680-4315-bc28-57fc9db44996"
+      (reference "CB?") (unit 1) (value "Avionics Bus CB") (footprint "")
+    )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/388762f5-890b-46d3-9653-5b33ed052fa1"
       (reference "CB?") (unit 1) (value "Battery Master CB") (footprint "")
     )
@@ -141,6 +187,9 @@
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/8a17d120-1899-4609-9fc2-8b83b160d1b7"
       (reference "CB?") (unit 1) (value "Lamps CB") (footprint "")
+    )
+    (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/8c04583f-084d-417b-adcb-af5504f6662f"
+      (reference "CB?") (unit 1) (value "CircuitBreaker_1P") (footprint "")
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/91d337f0-0505-4fcb-92a1-e365f6ea2f61"
       (reference "CB?") (unit 1) (value "TRIM CB") (footprint "")
@@ -187,11 +236,17 @@
     (path "/293b5c94-66ed-4931-a87f-688673218b15/5e81fced-7c45-4ff4-ad62-f8890e780796"
       (reference "J4") (unit 1) (value "Screw_Terminal_01x12") (footprint "")
     )
+    (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/1fb7f398-44df-4201-bc2f-b642988d115e"
+      (reference "J?") (unit 1) (value "PL?") (footprint "")
+    )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/2b931534-dcf4-4f0a-91cc-dc769096fa05"
       (reference "J?") (unit 1) (value "DB9_Female") (footprint "")
     )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/2eedac69-ebdc-4a09-ab2c-65c33d3be8e3"
       (reference "J?") (unit 1) (value "DB15_Male") (footprint "")
+    )
+    (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/3fd3a499-d077-4b88-94d8-a82d86dba2b8"
+      (reference "J?") (unit 1) (value "PL?") (footprint "")
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/619ed128-9b69-4240-9409-37a06185dd84"
       (reference "J?") (unit 1) (value "PL? - Fuel Pump") (footprint "")
@@ -202,6 +257,9 @@
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/76b153a4-0849-40e4-b941-539779425156"
       (reference "J?") (unit 1) (value "DB25_Female") (footprint "")
     )
+    (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/9c4ce566-e3f9-4617-a008-e8f5eae99ff8"
+      (reference "J?") (unit 1) (value "PL15/3") (footprint "")
+    )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/9d2c5c72-5033-4e18-8ccb-6942d4705a16"
       (reference "J?") (unit 1) (value "DB15_Female") (footprint "")
     )
@@ -211,32 +269,44 @@
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/b504d1fd-31e6-4b71-8d10-fda1a05f613d"
       (reference "J?") (unit 1) (value "DB15_Male") (footprint "")
     )
+    (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/b68e1cf4-a1ec-46c0-9ae1-d5bf2316ba50"
+      (reference "J?") (unit 1) (value "ECB Outputs") (footprint "")
+    )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/c04e6087-e529-408a-8a03-5605e6e4e80a"
       (reference "J?") (unit 1) (value "DB15_Female") (footprint "")
     )
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/c20d4cbf-03aa-492f-a7cc-6e1124415d77"
       (reference "J?") (unit 1) (value "DB9_Male") (footprint "")
     )
+    (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/cc93d801-b764-4613-8402-e8ad74cecd74"
+      (reference "J?") (unit 1) (value "PL?") (footprint "")
+    )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/d008d60e-b61b-4155-beb9-5029ffe66249"
       (reference "J?") (unit 1) (value "DB9_Male") (footprint "")
+    )
+    (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/d80e3ef4-71ab-401a-85af-2c0cbb43f9c9"
+      (reference "J?") (unit 1) (value "PL?") (footprint "")
+    )
+    (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/dd7940dc-a753-4039-9d10-ba42224e15f4"
+      (reference "J?") (unit 1) (value "DB9_Female") (footprint "")
     )
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/e77952fd-3f26-43bd-9da9-266d1d56298c"
       (reference "J?") (unit 1) (value "DB9_Female") (footprint "")
     )
+    (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/f42ae037-2e0e-42dc-a666-25d17c484087"
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x01") (footprint "")
+    )
+    (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/f8ad658e-16f3-423c-8f3d-ad5f4ce096af"
+      (reference "J?") (unit 1) (value "DB9_Male") (footprint "")
+    )
+    (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/fa3f87b1-63e0-4bcf-bfa3-d9d58049cb4a"
+      (reference "J?") (unit 1) (value "Conn_02x08_Odd_Even") (footprint "")
+    )
+    (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/fc3384d7-5dd0-4e7d-a6cd-f7d07b72acd5"
+      (reference "J?") (unit 1) (value "Conn_02x08_Odd_Even") (footprint "")
+    )
     (path "/95e96eec-8054-412c-b439-e274da9864da/381197e2-b232-4b8f-b646-39112473a836"
       (reference "LA?") (unit 1) (value "Alternator Warning Lamp") (footprint "")
-    )
-    (path "/e876c59e-4288-4b76-b538-81605be93f21/5bf7dce5-2000-421b-958d-68d2519ed3ba"
-      (reference "LA?") (unit 1) (value "Lamp") (footprint "")
-    )
-    (path "/e876c59e-4288-4b76-b538-81605be93f21/b6037f4d-1b39-4027-b890-d8a4414367a5"
-      (reference "LA?") (unit 1) (value "Lamp") (footprint "")
-    )
-    (path "/e876c59e-4288-4b76-b538-81605be93f21/da0418c1-ec5c-46e4-a289-eb3cf882a2aa"
-      (reference "LA?") (unit 1) (value "Lamp") (footprint "")
-    )
-    (path "/e876c59e-4288-4b76-b538-81605be93f21/e877879b-73eb-4bb6-a08d-a6923f98ec97"
-      (reference "LA?") (unit 1) (value "Lamp") (footprint "")
     )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/8b3089c2-4205-4106-b1c3-6349d2fe7f00"
       (reference "Lamps-CB") (unit 1) (value "CircuitBreaker_1P") (footprint "")
@@ -295,6 +365,12 @@
     (path "/e876c59e-4288-4b76-b538-81605be93f21/77916df4-64cd-4588-a545-035faa871e76"
       (reference "PL?") (unit 1) (value "PL9/7") (footprint "")
     )
+    (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/b42ac1f6-59d0-4f2c-85ba-9a1f496fb2b0"
+      (reference "PL?") (unit 1) (value "Conn_01x02_Female") (footprint "")
+    )
+    (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/df97c55f-1341-4a8a-b2cf-047088d5ab54"
+      (reference "PL?") (unit 1) (value "Conn_01x02_Male") (footprint "")
+    )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/f8d87646-0d96-4cd5-a3d1-535558283599"
       (reference "PL?") (unit 1) (value "PL15/2") (footprint "")
     )
@@ -331,11 +407,20 @@
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/3dba7568-3ce7-4215-a0f9-8c45438eab96"
       (reference "SW?") (unit 1) (value "Starter Switch") (footprint "")
     )
+    (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/60c35ef3-d4a2-422d-8aa1-05015c9cc7bb"
+      (reference "SW?") (unit 1) (value "SW_SPDT_MSM") (footprint "")
+    )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/afecc038-43b6-458e-aa63-20b51e6acf0e"
       (reference "SW?") (unit 1) (value "Battery Master Switch") (footprint "")
     )
+    (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/caedda76-3cac-49ed-a9bc-0931ab29328c"
+      (reference "SW?") (unit 1) (value "SW_SPDT_MSM") (footprint "")
+    )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/d4d62dba-6fe8-4f5c-afde-76945c0db595"
       (reference "SW?") (unit 1) (value "Starter Sw") (footprint "")
+    )
+    (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/dba945de-b8cb-4087-86b9-ff9cb25ac9e6"
+      (reference "SW?") (unit 1) (value "Avionics Master") (footprint "")
     )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/dbb84075-4131-47a3-b3a9-3ffe8d76ec2d"
       (reference "Starter-CB") (unit 1) (value "CircuitBreaker_1P") (footprint "")
@@ -363,6 +448,12 @@
     )
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/5a62c6d8-fc84-4d07-9df2-ab7e48d5f535"
       (reference "U?") (unit 1) (value "OAT_Sensor") (footprint "")
+    )
+    (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/874f090a-da72-4fd3-8793-c404e1c00bfc"
+      (reference "U?") (unit 1) (value "Pitch_Trim_Servo") (footprint "")
+    )
+    (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/c9f7875d-5829-42f5-94cf-ee5d8901ec4d"
+      (reference "U?") (unit 1) (value "Pitch_Trim_Indicator") (footprint "")
     )
     (path "/95e96eec-8054-412c-b439-e274da9864da/e9eef6b0-61c9-45dc-a99e-e0a5e09e5289"
       (reference "U?") (unit 1) (value "Ducati_Regulator") (footprint "")

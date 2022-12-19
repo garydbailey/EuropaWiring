@@ -344,6 +344,14 @@
     [
       "e876c59e-4288-4b76-b538-81605be93f21",
       "Main Bus Panel"
+    ],
+    [
+      "866b3cfa-81f9-4c05-8259-46d4a400c4a9",
+      "Trim Circuit"
+    ],
+    [
+      "5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c",
+      "Avionics BUS"
     ]
   ],
   "text_variables": {}
