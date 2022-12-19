@@ -311,6 +311,18 @@
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/8b3089c2-4205-4106-b1c3-6349d2fe7f00"
       (reference "Lamps-CB") (unit 1) (value "CircuitBreaker_1P") (footprint "")
     )
+    (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/e4be1ad4-ea4e-4e5e-a9ae-3dbf40ca29ce"
+      (reference "PL1-A") (unit 1) (value "Conn_01x02_Female") (footprint "")
+    )
+    (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/12127a9d-46e2-4797-ad98-645e7d5e8134"
+      (reference "PL1-B") (unit 1) (value "Conn_01x02_Male") (footprint "")
+    )
+    (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/b42ac1f6-59d0-4f2c-85ba-9a1f496fb2b0"
+      (reference "PL2") (unit 1) (value "Conn_01x02_Female") (footprint "")
+    )
+    (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/df97c55f-1341-4a8a-b2cf-047088d5ab54"
+      (reference "PL2") (unit 1) (value "Conn_01x02_Male") (footprint "")
+    )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/559ccf97-058c-431a-aa6c-8b448def102e"
       (reference "PL9-A") (unit 1) (value "DB15_Female") (footprint "")
     )
@@ -364,12 +376,6 @@
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/77916df4-64cd-4588-a545-035faa871e76"
       (reference "PL?") (unit 1) (value "PL9/7") (footprint "")
-    )
-    (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/b42ac1f6-59d0-4f2c-85ba-9a1f496fb2b0"
-      (reference "PL?") (unit 1) (value "Conn_01x02_Female") (footprint "")
-    )
-    (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/df97c55f-1341-4a8a-b2cf-047088d5ab54"
-      (reference "PL?") (unit 1) (value "Conn_01x02_Male") (footprint "")
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/f8d87646-0d96-4cd5-a3d1-535558283599"
       (reference "PL?") (unit 1) (value "PL15/2") (footprint "")
