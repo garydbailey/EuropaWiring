@@ -171,7 +171,7 @@
       (reference "C?") (unit 1) (value "C_Polarized") (footprint "")
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/05896e8e-71f7-4cf4-9ea2-c66b78678fb5"
-      (reference "CB?") (unit 1) (value "Fuel Pump") (footprint "")
+      (reference "CB?") (unit 1) (value "Fuel Pump CB") (footprint "")
     )
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/26fb60c6-b782-4115-96e5-0d0a85062e65"
       (reference "CB?") (unit 1) (value "RDAC CB") (footprint "")
@@ -189,7 +189,7 @@
       (reference "CB?") (unit 1) (value "Lamps CB") (footprint "")
     )
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/8c04583f-084d-417b-adcb-af5504f6662f"
-      (reference "CB?") (unit 1) (value "CircuitBreaker_1P") (footprint "")
+      (reference "CB?") (unit 1) (value "Trim CB") (footprint "")
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/91d337f0-0505-4fcb-92a1-e365f6ea2f61"
       (reference "CB?") (unit 1) (value "TRIM CB") (footprint "")
@@ -204,22 +204,40 @@
       (reference "CB?") (unit 1) (value "Avionics BUS CB") (footprint "")
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/b6042322-90d1-44f1-81c4-54b7ffeb37f1"
-      (reference "CB?") (unit 1) (value "Starter") (footprint "")
-    )
-    (path "/e876c59e-4288-4b76-b538-81605be93f21/f1e9ca53-83fe-48d9-9117-f7d158b0680b"
-      (reference "CB?") (unit 1) (value "?") (footprint "")
-    )
-    (path "/e876c59e-4288-4b76-b538-81605be93f21/f7447726-c8ab-49f4-a046-8104077705b0"
-      (reference "CB?") (unit 1) (value "?") (footprint "")
+      (reference "CB?") (unit 1) (value "Starter CB") (footprint "")
     )
     (path "/95e96eec-8054-412c-b439-e274da9864da/17bd44a0-242c-438d-8b3e-1f10aefa7711"
       (reference "EA1") (unit 1) (value "Engine_Alternator") (footprint "")
     )
-    (path "/95e96eec-8054-412c-b439-e274da9864da/8d745c97-a2e8-4aae-ae04-665d0442e05a"
-      (reference "F1") (unit 1) (value "Fuse") (footprint "")
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/3e9d9d42-a4dc-421f-b23e-1e59f474e2fe"
+      (reference "FB1/1") (unit 1) (value "Fuse") (footprint "")
     )
-    (path "/95e96eec-8054-412c-b439-e274da9864da/99fe3586-3050-4444-92a3-76b410a00860"
-      (reference "F2") (unit 1) (value "Fuse") (footprint "")
+    (path "/95e96eec-8054-412c-b439-e274da9864da/8c373f11-563f-4d3a-9e35-8870f8d47662"
+      (reference "FB1/1") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/cd9074b9-9355-4f44-95bf-0576cb11e264"
+      (reference "FB1/1") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/95e96eec-8054-412c-b439-e274da9864da/8d745c97-a2e8-4aae-ae04-665d0442e05a"
+      (reference "FB1/2") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/5ace1d45-19fe-4a6c-a4e1-f3444181a0f2"
+      (reference "FB2/1") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/f4db6bed-47f0-4aba-8ae6-133d740456d3"
+      (reference "FB2/1") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/cb2e660b-6998-44ed-8551-61c563519b7e"
+      (reference "FB2/2") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/b3a0f4fd-61fe-4547-b37f-9412627283e2"
+      (reference "FB2/3") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/2babdce3-8e22-4a4c-9fef-2c01a899da49"
+      (reference "FB2/4") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/69a82fa4-c5d0-484e-9c13-7c943afc2087"
+      (reference "FB2/4") (unit 1) (value "Fuse") (footprint "")
     )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/d485d247-bb20-4ffc-b2f5-e1c0eaafda4a"
       (reference "FS-2") (unit 1) (value "Fuse") (footprint "")
@@ -233,11 +251,8 @@
     (path "/293b5c94-66ed-4931-a87f-688673218b15/acbdb600-6467-47ff-9f07-fa11e9815756"
       (reference "J3") (unit 1) (value "Screw_Terminal_01x08") (footprint "")
     )
-    (path "/293b5c94-66ed-4931-a87f-688673218b15/5e81fced-7c45-4ff4-ad62-f8890e780796"
-      (reference "J4") (unit 1) (value "Screw_Terminal_01x12") (footprint "")
-    )
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/1fb7f398-44df-4201-bc2f-b642988d115e"
-      (reference "J?") (unit 1) (value "PL?") (footprint "")
+      (reference "J?") (unit 1) (value "PL5-B") (footprint "")
     )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/2b931534-dcf4-4f0a-91cc-dc769096fa05"
       (reference "J?") (unit 1) (value "DB9_Female") (footprint "")
@@ -246,7 +261,7 @@
       (reference "J?") (unit 1) (value "DB15_Male") (footprint "")
     )
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/3fd3a499-d077-4b88-94d8-a82d86dba2b8"
-      (reference "J?") (unit 1) (value "PL?") (footprint "")
+      (reference "J?") (unit 1) (value "PL5-A") (footprint "")
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/619ed128-9b69-4240-9409-37a06185dd84"
       (reference "J?") (unit 1) (value "PL? - Fuel Pump") (footprint "")
@@ -279,13 +294,13 @@
       (reference "J?") (unit 1) (value "DB9_Male") (footprint "")
     )
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/cc93d801-b764-4613-8402-e8ad74cecd74"
-      (reference "J?") (unit 1) (value "PL?") (footprint "")
+      (reference "J?") (unit 1) (value "PL4-A") (footprint "")
     )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/d008d60e-b61b-4155-beb9-5029ffe66249"
       (reference "J?") (unit 1) (value "DB9_Male") (footprint "")
     )
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/d80e3ef4-71ab-401a-85af-2c0cbb43f9c9"
-      (reference "J?") (unit 1) (value "PL?") (footprint "")
+      (reference "J?") (unit 1) (value "PL4-B") (footprint "")
     )
     (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/dd7940dc-a753-4039-9d10-ba42224e15f4"
       (reference "J?") (unit 1) (value "DB9_Female") (footprint "")
@@ -355,6 +370,9 @@
     )
     (path "/95e96eec-8054-412c-b439-e274da9864da/efba767d-032c-4fc0-ac0f-c7b5004e101c"
       (reference "PL15/2") (unit 1) (value "Conn_01x01") (footprint "")
+    )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/e904ba0c-1b5e-4455-ae69-907b563defbb"
+      (reference "PL15/3") (unit 1) (value "Conn_01x01") (footprint "")
     )
     (path "/95e96eec-8054-412c-b439-e274da9864da/fde59e8d-0bf8-462d-bf6d-62deaa0afd56"
       (reference "PL15/3") (unit 1) (value "Conn_01x01") (footprint "")
@@ -444,7 +462,10 @@
       (reference "TB5") (unit 1) (value "Screw_Terminal_01x12") (footprint "")
     )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/4c8ed4b2-0642-4ff8-8e8e-067706c5fb9b"
-      (reference "TB5") (unit 1) (value "Screw_Terminal_01x12") (footprint "")
+      (reference "TB6") (unit 1) (value "Screw_Terminal_01x12") (footprint "")
+    )
+    (path "/293b5c94-66ed-4931-a87f-688673218b15/5e81fced-7c45-4ff4-ad62-f8890e780796"
+      (reference "TB6") (unit 1) (value "Screw_Terminal_01x12") (footprint "")
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/c2eb974f-a6a3-4b82-a838-538770460ce4"
       (reference "TB6") (unit 1) (value "Screw_Terminal_01x12") (footprint "")
