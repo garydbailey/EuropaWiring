@@ -327,7 +327,7 @@
     ],
     [
       "75f9b772-c578-422e-a634-635b5097c8a8",
-      "COM"
+      "COM Radio"
     ],
     [
       "95e96eec-8054-412c-b439-e274da9864da",
@@ -352,6 +352,14 @@
     [
       "5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c",
       "Avionics BUS"
+    ],
+    [
+      "e1ebce97-45bd-4d6d-8f32-43a2d30fa366",
+      "SmartASS"
+    ],
+    [
+      "e1ffd005-c35b-448a-8691-6cad5a2d74ae",
+      "Tag Blocks"
     ]
   ],
   "text_variables": {}
