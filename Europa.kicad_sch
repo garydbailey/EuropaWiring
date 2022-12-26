@@ -14,6 +14,18 @@
   )
 
 
+  (sheet (at 92.71 156.21) (size 45.72 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce)
+    (property "Sheet name" "Connectors" (id 0) (at 92.71 155.1334 0)
+      (effects (font (size 2 2) bold) (justify left bottom))
+    )
+    (property "Sheet file" "connectors.kicad_sch" (id 1) (at 92.71 172.0346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 231.14 109.22) (size 45.72 20.32) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -55,6 +67,14 @@
     )
     (property "Sheet file" "com.kicad_sch" (id 1) (at 231.14 98.3746 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "0v COM Radio" input (at 231.14 85.725 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 0088b5c4-38c4-41e2-90c5-f088a27e4a75)
+    )
+    (pin "+12v COM Radio" input (at 231.14 80.01 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 7210516a-a96d-4171-b5b6-90e1b46b038d)
     )
   )
 
@@ -162,6 +182,7 @@
     (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c" (page "9"))
     (path "/e1ebce97-45bd-4d6d-8f32-43a2d30fa366" (page "10"))
     (path "/e1ffd005-c35b-448a-8691-6cad5a2d74ae" (page "11"))
+    (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce" (page "12"))
   )
 
   (symbol_instances
@@ -405,6 +426,9 @@
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/8b3089c2-4205-4106-b1c3-6349d2fe7f00"
       (reference "Lamps-CB") (unit 1) (value "CircuitBreaker_1P") (footprint "")
     )
+    (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/e78129cd-a963-4a8d-b873-8639a2170741"
+      (reference "PL1") (unit 1) (value "COM Radio Power") (footprint "")
+    )
     (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/e4be1ad4-ea4e-4e5e-a9ae-3dbf40ca29ce"
       (reference "PL1-A") (unit 1) (value "Conn_01x02_Female") (footprint "")
     )
@@ -414,17 +438,41 @@
     (path "/e876c59e-4288-4b76-b538-81605be93f21/99240c25-009b-4d05-8923-121bbd3fbb5d"
       (reference "PL1A") (unit 1) (value "Conn_01x03_Female") (footprint "")
     )
+    (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/6f915348-9b0f-4589-8cc5-b6b947470487"
+      (reference "PL2") (unit 1) (value "Avionics Master Switch") (footprint "")
+    )
     (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/b42ac1f6-59d0-4f2c-85ba-9a1f496fb2b0"
       (reference "PL2") (unit 1) (value "Conn_01x02_Female") (footprint "")
     )
     (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/df97c55f-1341-4a8a-b2cf-047088d5ab54"
       (reference "PL2") (unit 1) (value "Conn_01x02_Male") (footprint "")
     )
+    (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/fe9d6189-0c17-449b-a1a2-9797f0acc8ed"
+      (reference "PL3") (unit 1) (value "ECB") (footprint "")
+    )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/d008d60e-b61b-4155-beb9-5029ffe66249"
       (reference "PL3A") (unit 1) (value "DB9_Male") (footprint "")
     )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/2b931534-dcf4-4f0a-91cc-dc769096fa05"
       (reference "PL3B") (unit 1) (value "DB9_Female") (footprint "")
+    )
+    (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/63c8bb49-4a54-4d8e-b462-3c0762621446"
+      (reference "PL4") (unit 1) (value "Trim Power") (footprint "")
+    )
+    (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/d7b64594-c4c5-4190-88ee-8e7d3cb128bf"
+      (reference "PL5") (unit 1) (value "Trim Servo") (footprint "")
+    )
+    (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/bfe49bb9-e825-41b6-963d-c95a2519465f"
+      (reference "PL6") (unit 1) (value "TC90 Control Head") (footprint "")
+    )
+    (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/83b6a868-147c-46b4-ac8a-fe11abd5d170"
+      (reference "PL7") (unit 1) (value "MGL Oil Temp & Press") (footprint "")
+    )
+    (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/feb536dc-0816-4494-a9c2-a7b9cd5ce990"
+      (reference "PL8") (unit 1) (value "MGL EFIS") (footprint "")
+    )
+    (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/16239128-b9d6-4032-a671-0433740bc7f6"
+      (reference "PL9") (unit 1) (value "Instrument Panel") (footprint "")
     )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/559ccf97-058c-431a-aa6c-8b448def102e"
       (reference "PL9-A") (unit 1) (value "DB15_Female") (footprint "")
@@ -434,6 +482,9 @@
     )
     (path "/95e96eec-8054-412c-b439-e274da9864da/6549f19e-d7ae-423b-90b3-e880a9f61d6c"
       (reference "PL9/9") (unit 1) (value "Conn_01x01") (footprint "")
+    )
+    (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/c7f3f682-9108-4543-b76a-8d6f8e6c219a"
+      (reference "PL12") (unit 1) (value "Current Sensor") (footprint "")
     )
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/2409a3e3-f0dc-4e5d-8d6e-71c8c1c58eb7"
       (reference "PL12/1") (unit 1) (value "Conn_01x01") (footprint "")
@@ -449,6 +500,9 @@
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/c7c2a81e-4550-4749-bccc-a15837fe0c2b"
       (reference "PL15") (unit 1) (value "PL15/1") (footprint "")
+    )
+    (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/fe076a36-c316-45a1-8f21-17de69074d5f"
+      (reference "PL15") (unit 1) (value "Instrument Module") (footprint "")
     )
     (path "/95e96eec-8054-412c-b439-e274da9864da/3d5cbab8-4231-4f47-97f4-fa9a7735ee55"
       (reference "PL15/1") (unit 1) (value "Conn_01x01") (footprint "")
@@ -480,8 +534,14 @@
     (path "/95e96eec-8054-412c-b439-e274da9864da/f81f5b76-cf2a-4a78-a5d9-82d4a2097372"
       (reference "PL15/10") (unit 1) (value "Conn_01x01") (footprint "")
     )
+    (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/4af967dc-7df1-4a77-a173-6be423bfc848"
+      (reference "PL16") (unit 1) (value "Transponder") (footprint "")
+    )
     (path "/293b5c94-66ed-4931-a87f-688673218b15/ebe3f642-9b43-430a-b037-7f70139ef68a"
       (reference "PL16") (unit 1) (value "DB15_Female") (footprint "")
+    )
+    (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/c35308fb-7500-4147-ae38-7e02b5a8317c"
+      (reference "PL20") (unit 1) (value "Headset Panel") (footprint "")
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/02428102-6ae6-4d41-9989-a38e205d44b5"
       (reference "PL?") (unit 1) (value "PL15/5") (footprint "")
