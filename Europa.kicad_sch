@@ -201,6 +201,9 @@
     (path "/293b5c94-66ed-4931-a87f-688673218b15/e78f6b9e-11f9-4de0-bf3e-3dfeec8f821c"
       (reference "AE1") (unit 1) (value "Transponder Antenna") (footprint "")
     )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/c7846af8-7f0e-4548-b513-bb483da29dd9"
+      (reference "AE?") (unit 1) (value "Antenna") (footprint "")
+    )
     (path "/95e96eec-8054-412c-b439-e274da9864da/51d50f68-e9e6-4393-92e3-09fe7c1c92df"
       (reference "BT?") (unit 1) (value "Battery") (footprint "")
     )
@@ -291,20 +294,50 @@
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/1fb7f398-44df-4201-bc2f-b642988d115e"
       (reference "J?") (unit 1) (value "PL5-B") (footprint "")
     )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/2468929c-e27e-4300-8a81-10b9874a8983"
+      (reference "J?") (unit 1) (value "HeadPhone 2") (footprint "")
+    )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/2eedac69-ebdc-4a09-ab2c-65c33d3be8e3"
+      (reference "J?") (unit 1) (value "DB15_Male") (footprint "")
+    )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/2f181a15-b8dd-444e-b0f2-7bce44e15920"
+      (reference "J?") (unit 1) (value "RF Output (TNC)") (footprint "")
+    )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/2f4ea67c-6e21-464a-bbe7-57a480a92599"
+      (reference "J?") (unit 1) (value "HeadPhone 1") (footprint "")
+    )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/365f6a8d-f5a2-4142-886f-1ce22a494b7c"
       (reference "J?") (unit 1) (value "DB15_Male") (footprint "")
     )
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/3fd3a499-d077-4b88-94d8-a82d86dba2b8"
       (reference "J?") (unit 1) (value "PL5-A") (footprint "")
     )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/4e732021-bed9-49e6-b57b-a134012e143a"
+      (reference "J?") (unit 1) (value "PL?-B") (footprint "")
+    )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/52be14a5-5e24-44a5-b4a2-1f193da0072e"
+      (reference "J?") (unit 1) (value "PL1-B") (footprint "")
+    )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/619ed128-9b69-4240-9409-37a06185dd84"
       (reference "J?") (unit 1) (value "PL? - Fuel Pump") (footprint "")
+    )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/61e8b79b-5cd7-4bfb-9d78-d150bd09b8a6"
+      (reference "J?") (unit 1) (value "PL?-B") (footprint "")
+    )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/6e0ab079-c6a2-416c-ac49-805bc6027b3f"
+      (reference "J?") (unit 1) (value "MIC 1") (footprint "")
     )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/6fbfb598-dbcf-42c3-879e-9b58dd5bc67f"
       (reference "J?") (unit 1) (value "Screw_Terminal_01x08") (footprint "")
     )
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/76b153a4-0849-40e4-b941-539779425156"
       (reference "J?") (unit 1) (value "DB25_Female") (footprint "")
+    )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/8d132b35-6fac-45cf-a686-498aeeb8e99e"
+      (reference "J?") (unit 1) (value "PL1-A") (footprint "")
+    )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/94337d76-ba27-4669-8209-0ee5ee3b3283"
+      (reference "J?") (unit 1) (value "PL?-A") (footprint "")
     )
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/9c4ce566-e3f9-4617-a008-e8f5eae99ff8"
       (reference "J?") (unit 1) (value "PL15/3") (footprint "")
@@ -315,11 +348,20 @@
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/a0700f3e-8988-4515-a3ad-b2abb0d73540"
       (reference "J?") (unit 1) (value "DB25_Male") (footprint "")
     )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/ab3a9bbe-3df6-43c4-8c88-27ec51d0464a"
+      (reference "J?") (unit 1) (value "PL?-A") (footprint "")
+    )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/ad4215e0-e5ba-4ed0-85f7-e7d859536949"
+      (reference "J?") (unit 1) (value "DB25_Female") (footprint "")
+    )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/b504d1fd-31e6-4b71-8d10-fda1a05f613d"
       (reference "J?") (unit 1) (value "DB15_Male") (footprint "")
     )
     (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/b68e1cf4-a1ec-46c0-9ae1-d5bf2316ba50"
       (reference "J?") (unit 1) (value "ECB Outputs") (footprint "")
+    )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/bad7e02c-697b-44d9-9b10-1fe5c667ec06"
+      (reference "J?") (unit 1) (value "MIC 2") (footprint "")
     )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/c04e6087-e529-408a-8a03-5605e6e4e80a"
       (reference "J?") (unit 1) (value "DB15_Female") (footprint "")
@@ -327,11 +369,17 @@
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/c20d4cbf-03aa-492f-a7cc-6e1124415d77"
       (reference "J?") (unit 1) (value "DB9_Male") (footprint "")
     )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/c888594f-63f6-4e66-bca8-c59fa9499fd5"
+      (reference "J?") (unit 1) (value "DB15_Female") (footprint "")
+    )
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/cc93d801-b764-4613-8402-e8ad74cecd74"
       (reference "J?") (unit 1) (value "PL4-A") (footprint "")
     )
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/d80e3ef4-71ab-401a-85af-2c0cbb43f9c9"
       (reference "J?") (unit 1) (value "PL4-B") (footprint "")
+    )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/d8325dae-0337-435b-8520-a172d6b41e2d"
+      (reference "J?") (unit 1) (value "DB25_Male") (footprint "")
     )
     (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/dd7940dc-a753-4039-9d10-ba42224e15f4"
       (reference "J?") (unit 1) (value "DB9_Female") (footprint "")
@@ -486,6 +534,12 @@
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/60c35ef3-d4a2-422d-8aa1-05015c9cc7bb"
       (reference "SW?") (unit 1) (value "SW_SPDT_MSM") (footprint "")
     )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/6f531789-2f63-4038-94b7-2ae22d76af5a"
+      (reference "SW?") (unit 1) (value "PTT 2") (footprint "")
+    )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/937e8fd7-523f-4a05-beeb-721f9e54a6bc"
+      (reference "SW?") (unit 1) (value "PTT 2") (footprint "")
+    )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/afecc038-43b6-458e-aa63-20b51e6acf0e"
       (reference "SW?") (unit 1) (value "Battery Master Switch") (footprint "")
     )
@@ -497,6 +551,9 @@
     )
     (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/dba945de-b8cb-4087-86b9-ff9cb25ac9e6"
       (reference "SW?") (unit 1) (value "Avionics Master") (footprint "")
+    )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/f3710fc3-c21c-47ba-8f71-eaea711ec9f6"
+      (reference "SW?") (unit 1) (value "Intercom Enable") (footprint "")
     )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/dbb84075-4131-47a3-b3a9-3ffe8d76ec2d"
       (reference "Starter-CB") (unit 1) (value "CircuitBreaker_1P") (footprint "")
