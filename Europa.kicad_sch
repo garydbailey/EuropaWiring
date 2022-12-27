@@ -477,8 +477,14 @@
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/559ccf97-058c-431a-aa6c-8b448def102e"
       (reference "PL9-A") (unit 1) (value "DB15_Female") (footprint "")
     )
+    (path "/e1ebce97-45bd-4d6d-8f32-43a2d30fa366/8466ed14-1c64-4044-bbcc-6973d544a42a"
+      (reference "PL9-A?") (unit 1) (value "DB15_Female") (footprint "")
+    )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/e0ff68e4-a400-411b-a15f-019ff82dffc4"
       (reference "PL9-B") (unit 1) (value "DB15_Male") (footprint "")
+    )
+    (path "/e1ebce97-45bd-4d6d-8f32-43a2d30fa366/e2536cb4-1dbd-40ac-81ee-2dce4043009b"
+      (reference "PL9-B?") (unit 1) (value "DB15_Male") (footprint "")
     )
     (path "/95e96eec-8054-412c-b439-e274da9864da/6549f19e-d7ae-423b-90b3-e880a9f61d6c"
       (reference "PL9/9") (unit 1) (value "Conn_01x01") (footprint "")
@@ -564,6 +570,9 @@
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/e7fab849-aab1-4ec4-96ad-70aceaea439f"
       (reference "R?") (unit 1) (value "120 ohm") (footprint "")
     )
+    (path "/e1ebce97-45bd-4d6d-8f32-43a2d30fa366/2c84dd43-e1fa-4116-abb1-23685bead543"
+      (reference "RV?") (unit 1) (value "Volume") (footprint "")
+    )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/99bebb0d-e008-4cf9-8849-280df67dcece"
       (reference "RV?") (unit 1) (value "Volume") (footprint "")
     )
@@ -578,6 +587,9 @@
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/09849246-2af9-47af-a100-94f3e7daf7b3"
       (reference "SW?") (unit 1) (value "Alternator Master") (footprint "")
+    )
+    (path "/e1ebce97-45bd-4d6d-8f32-43a2d30fa366/0f96e2c4-364e-4e32-991c-b33696179712"
+      (reference "SW?") (unit 1) (value "On/Off") (footprint "")
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/23c950b3-3550-4772-aada-803de3c1f283"
       (reference "SW?") (unit 1) (value "Fuel Pump") (footprint "")
@@ -605,6 +617,9 @@
     )
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/caedda76-3cac-49ed-a9bc-0931ab29328c"
       (reference "SW?") (unit 1) (value "SW_SPDT_MSM") (footprint "")
+    )
+    (path "/e1ebce97-45bd-4d6d-8f32-43a2d30fa366/cfa697c3-42ae-495e-90d3-1227e996dc0f"
+      (reference "SW?") (unit 1) (value "Select") (footprint "")
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/d4d62dba-6fe8-4f5c-afde-76945c0db595"
       (reference "SW?") (unit 1) (value "Starter Sw") (footprint "")
