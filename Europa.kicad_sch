@@ -14,6 +14,19 @@
   )
 
 
+  (wire (pts (xy 216.535 153.67) (xy 231.14 153.67))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 7e27a444-4cd2-4451-b058-629d07c3f82e)
+  )
+  (wire (pts (xy 216.535 91.44) (xy 216.535 153.67))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 9966aa30-288a-47f5-b9b4-6e0e86e346f5)
+  )
+  (wire (pts (xy 231.14 91.44) (xy 216.535 91.44))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid ad4ce8eb-1e4f-4395-88a5-05849e58cb2e)
+  )
+
   (sheet (at 92.71 156.21) (size 45.72 15.24) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -75,6 +88,10 @@
     (pin "+12v COM Radio" input (at 231.14 80.01 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 7210516a-a96d-4171-b5b6-90e1b46b038d)
+    )
+    (pin "Aux Audio Input" input (at 231.14 91.44 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid f2e92145-e81b-48d6-bb24-f8551b958bb6)
     )
   )
 
@@ -143,6 +160,18 @@
     )
     (property "Sheet file" "smartass.kicad_sch" (id 1) (at 231.14 163.1446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "Aux Audio" output (at 231.14 153.67 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 9fedea42-e092-457f-a449-80c144adc9fc)
+    )
+    (pin "+12v" input (at 231.14 145.415 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 1baf80dd-1323-4c29-b4bd-b9791372f2b4)
+    )
+    (pin "Ground" input (at 231.14 149.225 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 94e72df0-e35f-416a-943b-d5e6d69a8c1c)
     )
   )
 
@@ -327,9 +356,6 @@
     (path "/75f9b772-c578-422e-a634-635b5097c8a8/2f4ea67c-6e21-464a-bbe7-57a480a92599"
       (reference "J?") (unit 1) (value "HeadPhone 1") (footprint "")
     )
-    (path "/75f9b772-c578-422e-a634-635b5097c8a8/365f6a8d-f5a2-4142-886f-1ce22a494b7c"
-      (reference "J?") (unit 1) (value "DB15_Male") (footprint "")
-    )
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/3fd3a499-d077-4b88-94d8-a82d86dba2b8"
       (reference "J?") (unit 1) (value "PL5-A") (footprint "")
     )
@@ -345,6 +371,9 @@
     (path "/75f9b772-c578-422e-a634-635b5097c8a8/61e8b79b-5cd7-4bfb-9d78-d150bd09b8a6"
       (reference "J?") (unit 1) (value "PL?-B") (footprint "")
     )
+    (path "/e1ebce97-45bd-4d6d-8f32-43a2d30fa366/68d5e530-46f6-4d76-abef-febf18aab817"
+      (reference "J?") (unit 1) (value "DB15_Female") (footprint "")
+    )
     (path "/75f9b772-c578-422e-a634-635b5097c8a8/6e0ab079-c6a2-416c-ac49-805bc6027b3f"
       (reference "J?") (unit 1) (value "MIC 1") (footprint "")
     )
@@ -356,6 +385,9 @@
     )
     (path "/75f9b772-c578-422e-a634-635b5097c8a8/8d132b35-6fac-45cf-a686-498aeeb8e99e"
       (reference "J?") (unit 1) (value "PL1-A") (footprint "")
+    )
+    (path "/e1ebce97-45bd-4d6d-8f32-43a2d30fa366/8fb2c536-d5fc-4d74-bad2-e79e4b836792"
+      (reference "J?") (unit 1) (value "DB15_Male") (footprint "")
     )
     (path "/75f9b772-c578-422e-a634-635b5097c8a8/94337d76-ba27-4669-8209-0ee5ee3b3283"
       (reference "J?") (unit 1) (value "PL?-A") (footprint "")
@@ -462,6 +494,9 @@
     (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/d7b64594-c4c5-4190-88ee-8e7d3cb128bf"
       (reference "PL5") (unit 1) (value "Trim Servo") (footprint "")
     )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/365f6a8d-f5a2-4142-886f-1ce22a494b7c"
+      (reference "PL6") (unit 1) (value "DB15_Male") (footprint "")
+    )
     (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/bfe49bb9-e825-41b6-963d-c95a2519465f"
       (reference "PL6") (unit 1) (value "TC90 Control Head") (footprint "")
     )
@@ -532,6 +567,9 @@
       (reference "PL15/4") (unit 1) (value "PL9/14") (footprint "")
     )
     (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/44e5cdc4-7be7-470a-aadd-56aa1a6bb9c6"
+      (reference "PL15/6") (unit 1) (value "Conn_01x01") (footprint "")
+    )
+    (path "/e1ebce97-45bd-4d6d-8f32-43a2d30fa366/e012a903-4fbd-4e81-80ee-14895e0b8b00"
       (reference "PL15/6") (unit 1) (value "Conn_01x01") (footprint "")
     )
     (path "/95e96eec-8054-412c-b439-e274da9864da/1c9a909b-961c-49c2-879c-f646c2a2f1a5"
@@ -671,6 +709,9 @@
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/c2eb974f-a6a3-4b82-a838-538770460ce4"
       (reference "TB6") (unit 1) (value "Screw_Terminal_01x12") (footprint "")
+    )
+    (path "/e1ebce97-45bd-4d6d-8f32-43a2d30fa366/62bd0e62-efef-48fe-bf5d-fcf6492904de"
+      (reference "TY91/20") (unit 1) (value "Aux Audio") (footprint "")
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/3a4078e7-24de-4bfd-a13a-9bee3112ef73"
       (reference "U?") (unit 1) (value "MGL_Current_Sensor") (footprint "")

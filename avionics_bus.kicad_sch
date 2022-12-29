@@ -6,8 +6,8 @@
 
   (title_block
     (title "Europa Avionics Bus")
-    (date "2022-12-24")
-    (rev "2")
+    (date "2022-12-29")
+    (rev "3")
   )
 
   (lib_symbols
@@ -1497,6 +1497,11 @@
   (text "Temp & Pres" (at 208.28 57.15 0)
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid 53356d80-54ab-440d-8692-f0fc716c341d)
+  )
+  (text "Breaker 1 - COM Radio 	- 5 Amp\nBreaker 2 - Transponder	- 3 Amp\nBreaker 3 - SmartASS	- 2 Amp\nBreaker 4 - EFIS		- 1 Amp\nBreaker 5 - USB/GPS		- 10 Amp\nBreaker 6 - Oil T&P		- 1 Amp\nBreaker 7 - Spare		- 5 Amp\nBreaker 8 - Spare		- 5 Amp"
+    (at 227.965 34.29 0)
+    (effects (font (size 1.5 1.5)) (justify left bottom))
+    (uuid 5440e995-511d-4e07-b98e-50d88b20a35f)
   )
   (text "USB/GPS" (at 53.34 105.41 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
