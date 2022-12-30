@@ -323,6 +323,9 @@
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/f4db6bed-47f0-4aba-8ae6-133d740456d3"
       (reference "FB2/1") (unit 1) (value "Fuse") (footprint "")
     )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/6551e408-0a67-4b32-929f-65a3b7c2b5ce"
+      (reference "FB2/2") (unit 1) (value "Fuse") (footprint "")
+    )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/cb2e660b-6998-44ed-8551-61c563519b7e"
       (reference "FB2/2") (unit 1) (value "Fuse") (footprint "")
     )
@@ -358,6 +361,9 @@
     )
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/3fd3a499-d077-4b88-94d8-a82d86dba2b8"
       (reference "J?") (unit 1) (value "PL5-A") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/46b880d2-7e85-40e5-92c0-d4f6501be829"
+      (reference "J?") (unit 1) (value "Conn_01x03_Male") (footprint "")
     )
     (path "/75f9b772-c578-422e-a634-635b5097c8a8/4e732021-bed9-49e6-b57b-a134012e143a"
       (reference "J?") (unit 1) (value "PL?-B") (footprint "")
@@ -433,6 +439,9 @@
     )
     (path "/75f9b772-c578-422e-a634-635b5097c8a8/d8325dae-0337-435b-8520-a172d6b41e2d"
       (reference "J?") (unit 1) (value "DB25_Male") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/dd5fb617-ba96-423e-9d18-eba82f0ac5f9"
+      (reference "J?") (unit 1) (value "Conn_01x03_Female") (footprint "")
     )
     (path "/5afc04a8-14bc-4c25-8a7e-c4e01fd6c06c/dd7940dc-a753-4039-9d10-ba42224e15f4"
       (reference "J?") (unit 1) (value "DB9_Female") (footprint "")
@@ -578,6 +587,9 @@
     (path "/95e96eec-8054-412c-b439-e274da9864da/f81f5b76-cf2a-4a78-a5d9-82d4a2097372"
       (reference "PL15/10") (unit 1) (value "Conn_01x01") (footprint "")
     )
+    (path "/e876c59e-4288-4b76-b538-81605be93f21/a6d00c50-87a7-4f08-beb7-7c1f2c7ae47c"
+      (reference "PL15/15") (unit 1) (value "Conn_01x01") (footprint "")
+    )
     (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/4af967dc-7df1-4a77-a173-6be423bfc848"
       (reference "PL16") (unit 1) (value "Transponder") (footprint "")
     )
@@ -712,6 +724,9 @@
     )
     (path "/e1ebce97-45bd-4d6d-8f32-43a2d30fa366/62bd0e62-efef-48fe-bf5d-fcf6492904de"
       (reference "TY91/20") (unit 1) (value "Aux Audio") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/066f186c-aa25-4bdf-97d6-0cfad25222f8"
+      (reference "U?") (unit 1) (value "Fuel_Flow_Sensor") (footprint "")
     )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/3a4078e7-24de-4bfd-a13a-9bee3112ef73"
       (reference "U?") (unit 1) (value "MGL_Current_Sensor") (footprint "")
