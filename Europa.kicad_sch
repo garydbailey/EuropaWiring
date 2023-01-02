@@ -362,9 +362,6 @@
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/3fd3a499-d077-4b88-94d8-a82d86dba2b8"
       (reference "J?") (unit 1) (value "PL5-A") (footprint "")
     )
-    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/46b880d2-7e85-40e5-92c0-d4f6501be829"
-      (reference "J?") (unit 1) (value "Conn_01x03_Male") (footprint "")
-    )
     (path "/75f9b772-c578-422e-a634-635b5097c8a8/4e732021-bed9-49e6-b57b-a134012e143a"
       (reference "J?") (unit 1) (value "PL?-B") (footprint "")
     )
@@ -396,7 +393,10 @@
       (reference "J?") (unit 1) (value "DB15_Male") (footprint "")
     )
     (path "/75f9b772-c578-422e-a634-635b5097c8a8/94337d76-ba27-4669-8209-0ee5ee3b3283"
-      (reference "J?") (unit 1) (value "PL?-A") (footprint "")
+      (reference "J?") (unit 1) (value "PL22") (footprint "")
+    )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/94cbcbf3-70dd-4be4-85d6-57212db7bece"
+      (reference "J?") (unit 1) (value "Conn_01x06_Male") (footprint "")
     )
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/9c4ce566-e3f9-4617-a008-e8f5eae99ff8"
       (reference "J?") (unit 1) (value "PL15/3") (footprint "")
@@ -408,10 +408,7 @@
       (reference "J?") (unit 1) (value "DB25_Male") (footprint "")
     )
     (path "/75f9b772-c578-422e-a634-635b5097c8a8/ab3a9bbe-3df6-43c4-8c88-27ec51d0464a"
-      (reference "J?") (unit 1) (value "PL?-A") (footprint "")
-    )
-    (path "/75f9b772-c578-422e-a634-635b5097c8a8/ad4215e0-e5ba-4ed0-85f7-e7d859536949"
-      (reference "J?") (unit 1) (value "DB25_Female") (footprint "")
+      (reference "J?") (unit 1) (value "PL21") (footprint "")
     )
     (path "/c5676131-d5a4-4fde-914f-3f396c9cd255/b504d1fd-31e6-4b71-8d10-fda1a05f613d"
       (reference "J?") (unit 1) (value "DB15_Male") (footprint "")
@@ -434,11 +431,11 @@
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/cc93d801-b764-4613-8402-e8ad74cecd74"
       (reference "J?") (unit 1) (value "PL4-A") (footprint "")
     )
+    (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/d410ed8f-b755-44bc-a20b-c4314d52757c"
+      (reference "J?") (unit 1) (value "Conn_01x03_Female") (footprint "")
+    )
     (path "/866b3cfa-81f9-4c05-8259-46d4a400c4a9/d80e3ef4-71ab-401a-85af-2c0cbb43f9c9"
       (reference "J?") (unit 1) (value "PL4-B") (footprint "")
-    )
-    (path "/75f9b772-c578-422e-a634-635b5097c8a8/d8325dae-0337-435b-8520-a172d6b41e2d"
-      (reference "J?") (unit 1) (value "DB25_Male") (footprint "")
     )
     (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/dd5fb617-ba96-423e-9d18-eba82f0ac5f9"
       (reference "J?") (unit 1) (value "Conn_01x03_Female") (footprint "")
@@ -599,6 +596,24 @@
     (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/c35308fb-7500-4147-ae38-7e02b5a8317c"
       (reference "PL20") (unit 1) (value "Headset Panel") (footprint "")
     )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/c3f256cb-9c51-48ef-8d74-2f45adabdc9e"
+      (reference "PL20") (unit 1) (value "Headset Panel") (footprint "")
+    )
+    (path "/a5352cd5-5c6a-411a-b1fe-0b8c42ec40dc/46b880d2-7e85-40e5-92c0-d4f6501be829"
+      (reference "PL30") (unit 1) (value "Conn_01x03_Male") (footprint "")
+    )
+    (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/ba9a7ad1-d902-436d-8111-97a2329c021a"
+      (reference "PL30") (unit 1) (value "Fuel Flow Sensor") (footprint "")
+    )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/ad4215e0-e5ba-4ed0-85f7-e7d859536949"
+      (reference "PL31") (unit 1) (value "DB25_Female") (footprint "")
+    )
+    (path "/1c871bc4-f2ef-4ec4-b2d7-f28c56def7ce/b46ffe0b-f785-4a04-9ca1-0cc13fc0a2a6"
+      (reference "PL31") (unit 1) (value "COM Radio") (footprint "")
+    )
+    (path "/75f9b772-c578-422e-a634-635b5097c8a8/d8325dae-0337-435b-8520-a172d6b41e2d"
+      (reference "PL31") (unit 1) (value "DB25_Male") (footprint "")
+    )
     (path "/e876c59e-4288-4b76-b538-81605be93f21/02428102-6ae6-4d41-9989-a38e205d44b5"
       (reference "PL?") (unit 1) (value "PL15/5") (footprint "")
     )
@@ -657,7 +672,7 @@
       (reference "SW?") (unit 1) (value "SW_SPDT_MSM") (footprint "")
     )
     (path "/75f9b772-c578-422e-a634-635b5097c8a8/6f531789-2f63-4038-94b7-2ae22d76af5a"
-      (reference "SW?") (unit 1) (value "PTT 2") (footprint "")
+      (reference "SW?") (unit 1) (value "PTT 1") (footprint "")
     )
     (path "/75f9b772-c578-422e-a634-635b5097c8a8/937e8fd7-523f-4a05-beeb-721f9e54a6bc"
       (reference "SW?") (unit 1) (value "PTT 2") (footprint "")
