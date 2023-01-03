@@ -6,8 +6,8 @@
 
   (title_block
     (title "Europa - Electrical Tag Blocks")
-    (date "2022-12-24")
-    (rev "1")
+    (date "2023-01-03")
+    (rev "2")
   )
 
   (lib_symbols
@@ -1166,7 +1166,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0e9096f8-445e-4704-8e78-b9af5792a902)
   )
-  (text "Earth Bus" (at 239.395 71.12 0)
+  (text "Ground Bus" (at 238.125 71.12 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1b2912b8-0dd9-4961-b09f-49a8bde93b2c)
   )
@@ -1181,6 +1181,10 @@
   (text "Link to TB4/7" (at 179.07 40.005 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 239d09d0-b600-43c1-a66c-09294f2943ab)
+  )
+  (text "Fuel Flow Sensor" (at 215.265 37.465 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 270f3d1b-6d7a-4cae-b46f-b31fd2fa244a)
   )
   (text "OAT Ground" (at 37.465 60.325 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
