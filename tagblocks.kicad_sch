@@ -1226,7 +1226,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 47154320-dcaf-4ba1-bc9f-8d19d0d8b383)
   )
-  (text "Ground link ftom TB3/2" (at 208.915 52.705 0)
+  (text "Ground link from TB3/2" (at 208.915 52.705 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 49e4fe6e-c565-4fb7-9552-7e75f3a05c12)
   )
